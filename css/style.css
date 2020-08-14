@@ -1,5 +1,5 @@
 *{
-    
+    font-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -7,6 +7,11 @@
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar
+{
+    opacity: .9;
 }
 
 .brandSize, .nav-item
@@ -18,58 +23,54 @@ body
 {
     height: 100%;
     left: 0;
-    margin-top: 6vh;
+    margin-top: .6vh;
     width: 100%;
     top: 0;
     z-index: 0;
 }
 
-.ad
+.material-icons
 {
-    background-color: #019;
-    color: aliceblue;
-    font-size: 2rem;
-    left: auto;
-    opacity: .8;
-    padding: 1rem;
-    position: absolute;
-    top: 30vh;
-    z-index: 1;
+    font-size: 3rem;
 }
 
 .catchPhrase
 {
-    background-color: #019;
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 1.8rem;
     left: auto;
     opacity: .8;
     padding: 1rem;
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     z-index: 1;
 }
 
 .slogan
 {
-    background-color: #019;
     color: aliceblue;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-style: italic;
     left: auto;
-    opacity: .8;
+    opacity: .9;
     padding: 1rem;
     position: absolute;
-    top: 41vh;
+    top: 36vh;
     z-index: 1;
 }
 
-.agents
+.jumbotron
 {
+    background-color: #039;
+    color: aliceblue;
+    font-size: 1.8rem;
+    height: 10vh;
     left: 0;
-    opacity: .9;
+    opacity: .7;
+    padding-top: 2vh;
     position: absolute;
-    top: 55vh;
+    top: 51vh;
+    width: 100%;
     z-index: 1;
 }
 
@@ -81,3 +82,29 @@ body
     position: relative;
     width: auto;
 }
+
+/* Begin @Media */
+@media screen and (max-width: 480px)
+{
+    .brandSize
+    {
+        font-size: .84rem;
+    }
+
+    .catchPhrase
+    {
+        font-size: .95rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        top: 13vh;
+    }
+
+    .slogan
+    {
+        font-size: .95rem;
+        margin-top: 1rem;
+        top: 18vh;
+    }
+}
+
+/* End @Media */

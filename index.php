@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     
     <title>Fast Response Insurance Brokerage, LLC</title>
@@ -14,7 +15,7 @@
     <body>
         <section>
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" style="background-color: #019; font-size: 1.2rem;">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #039; font-size: 1.2rem;">
                     <a class="navbar-brand brandSize" href="#">FAST RESPONSE BROKERAGE INSURANCE, LLC</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon small"></span>
@@ -44,23 +45,35 @@
         </section>
 
         <section>
-            <video src="./vid/desert.mp4" type="video/mp4 "class="bgVid" playsinline autoplay muted loop>
+            <video src="./vid/arizona.mp4" type="video/mp4 "class="bgVid" playsinline autoplay muted loop>
                 <source >
             </video>
 
             <div class="container">
                 <div class="row justify-content-center mt-4">
-                    <div class="col-md-lg bg-primary rounded shadow text-center catchPhrase fixed">Phoenix Arizona's Premier Insurance Agency
+                    <div class="col-md-lg rounded shadow-lg text-center catchPhrase">Phoenix Arizona's Premier Insurance Agency
                     </div>
-                    <div class="col-md-lg bg-primary rounded shadow text-center slogan">To provide protection for my clients for tomorrow…..today!
+                    <div class="col-md-lg rounded shadow-lg text-center slogan">To provide protection for my clients for tomorrow…..today!
                     </div>
-
                 </div>
             </div>
+
+            <div class="container">
+            <div class="jumbotron text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="quote mb-2"> <i class="material-icons">monetization_on</i> Create A Quote</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="quote mb-2"><i class="material-icons">toc</i> Billing & Claims</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="quote mb-2"><i class="material-icons">rate_review</i> Reviews</div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
-
-        testing
-
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
