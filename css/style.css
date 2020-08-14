@@ -1,0 +1,83 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brandSize, .nav-item
+{
+    font-size: 1rem;
+}
+
+.bgVid
+{
+    height: 100%;
+    left: 0;
+    margin-top: 6vh;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.ad
+{
+    background-color: #019;
+    color: aliceblue;
+    font-size: 2rem;
+    left: auto;
+    opacity: .8;
+    padding: 1rem;
+    position: absolute;
+    top: 30vh;
+    z-index: 1;
+}
+
+.catchPhrase
+{
+    background-color: #019;
+    color: aliceblue;
+    font-size: 2rem;
+    left: auto;
+    opacity: .8;
+    padding: 1rem;
+    position: absolute;
+    top: 30vh;
+    z-index: 1;
+}
+
+.slogan
+{
+    background-color: #019;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-style: italic;
+    left: auto;
+    opacity: .8;
+    padding: 1rem;
+    position: absolute;
+    top: 41vh;
+    z-index: 1;
+}
+
+.agents
+{
+    left: 0;
+    opacity: .9;
+    position: absolute;
+    top: 55vh;
+    z-index: 1;
+}
+
+.card-img
+{
+    background-color: red;
+    border-radius: 50%;
+    height: 25vh;
+    position: relative;
+    width: auto;
+}
