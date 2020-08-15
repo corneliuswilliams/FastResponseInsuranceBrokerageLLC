@@ -1,17 +1,14 @@
 *{
-    font-size: 100%;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body
 {
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.navbar
-{
-    opacity: .9;
+    overflow-x: hidden;
 }
 
 .brandSize, .nav-item
@@ -21,11 +18,14 @@ body
 
 .bgVid
 {
-    height: 100%;
+
     left: 0;
-    margin-top: .6vh;
-    width: 100%;
-    top: 0;
+    margin: 0 auto;
+
+    overflow: hidden;
+    position: absolute;
+    top: .6vh;
+    width: 100vw;
     z-index: 0;
 }
 
@@ -39,7 +39,7 @@ body
     color: aliceblue;
     font-size: 1.8rem;
     left: auto;
-    opacity: .8;
+    opacity: .9;
     padding: 1rem;
     position: absolute;
     top: 25vh;
@@ -59,19 +59,22 @@ body
     z-index: 1;
 }
 
-.jumbotron
+.banner
 {
-    background-color: #039;
     color: aliceblue;
     font-size: 1.8rem;
     height: 10vh;
-    left: 0;
-    opacity: .7;
+    opacity: .8;
     padding-top: 2vh;
     position: absolute;
     top: 51vh;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
+}
+
+.quickAccess
+{
+    background-color: #039;
 }
 
 .card-img
@@ -81,6 +84,13 @@ body
     height: 25vh;
     position: relative;
     width: auto;
+}
+
+.agents
+{
+    opacity: .9;
+    position: absolute;
+    top: 70vh;
 }
 
 /* Begin @Media */
@@ -104,6 +114,17 @@ body
         font-size: .95rem;
         margin-top: 1rem;
         top: 18vh;
+    }
+
+    .banner
+    {
+        margin-top: -20.75vh;
+    }
+
+    .quote, .billClaims, .reviews
+    {
+        font-size: 1rem;
+        text-align: left;
     }
 }
 

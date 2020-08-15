@@ -45,13 +45,13 @@
         </section>
 
         <section>
-            <video src="./vid/arizona.mp4" type="video/mp4 "class="bgVid" playsinline autoplay muted loop>
+            <video src="./vid/arizona2.mp4" type="video/mp4 "class="bgVid" playsinline autoplay muted loop>
                 <source >
             </video>
 
             <div class="container">
                 <div class="row justify-content-center mt-4">
-                    <div class="col-md-lg rounded shadow-lg text-center catchPhrase">Phoenix Arizona's Premier Insurance Agency
+                    <div class="col-md-lg rounded shadow-lg text-center catchPhrase">Phoenix Arizona's Premiere Insurance Agency
                     </div>
                     <div class="col-md-lg rounded shadow-lg text-center slogan">To provide protection for my clients for tomorrow…..today!
                     </div>
@@ -59,19 +59,59 @@
             </div>
 
             <div class="container">
-            <div class="jumbotron text-center">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="quote mb-2"> <i class="material-icons">monetization_on</i> Create A Quote</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="quote mb-2"><i class="material-icons">toc</i> Billing & Claims</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="quote mb-2"><i class="material-icons">rate_review</i> Reviews</div>
+                <div class="text-center">
+                    <div class="row justify-content-center banner">
+
                     </div>
                 </div>
             </div>
+        </section>
+
+        
+        <div class="banner">
+            <nav class="navbar navbar-expand-lg navbar-dark text-center" style="background-color: #039; font-size: 1.2rem;">
+                <div class="col-md-4 no-gutters quickAccess">
+                    <div class="quote mb-2"> <i class="material-icons">monetization_on</i> Create A Quote</div>
+                </div>
+                <div class="col-md-4 quickAccess">
+                    <div class="billClaims mb-2"><i class="material-icons">toc</i> Billing & Claims</div>
+                </div>
+                <div class="col-md-4 quickAccess">
+                    <div class="reviews mb-2"><i class="material-icons">rate_review</i> Reviews</div>
+                </div>
+            
+            </nav>
+        </div>
+
+        <section class="mt-4 agents">
+            <div class="row justify-content-center">
+                <div class="card col-md-4 mb-3 ml-3 mr-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/ruth.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ruth Flintoft</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 mb-3 ml-3 mr-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./img/mohammed.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Mohammed Abdeljaber</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
